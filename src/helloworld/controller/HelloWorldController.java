@@ -11,7 +11,7 @@ import org.springframework.web.servlet.mvc.Controller;
 
 public class HelloWorldController implements Controller {
 
-	public ModelAndView ha;ndleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception{
+	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		String name = request.getParameter("name");
 		System.out.println("Hi");
 		Map<String, String> map = new HashMap<String,String>(); 
