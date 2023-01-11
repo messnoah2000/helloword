@@ -11,10 +11,11 @@ import org.springframework.web.servlet.mvc.Controller;
 
 public class HelloWorldController implements Controller {
 
-	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception{
+	public ModelAndView ha;ndleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		String name = request.getParameter("name");
-
-		Map<String, String> map = new HashMap<String,String>(); System.out.println("Hi");
+		System.out.println("Hi")
+		Map<String, String> map = new HashMap<String,String>(); 
+		System.out.println("Hi");
 
 		map.put("name", name);
 
