@@ -13,7 +13,7 @@ public class HelloWorldController implements Controller {
 
 	public ModelAndView ha;ndleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		String name = request.getParameter("name");
-		System.out.println("Hi");
+		System.out.println("Hi")
 		Map<String, String> map = new HashMap<String,String>(); 
 		System.out.println("Hi");
 
