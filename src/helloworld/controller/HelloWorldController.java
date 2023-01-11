@@ -15,7 +15,7 @@ public class HelloWorldController implements Controller {
 		String name = request.getParameter("name");
 		System.out.println("Hi");
 		Map<String, String> map = new HashMap<String,String>(); 
-		System.out.println("Hi");
+		System.out.println("Hiiii");
 
 		map.put("name", name);
 
