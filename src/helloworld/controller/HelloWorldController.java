@@ -14,7 +14,8 @@ public class HelloWorldController implements Controller {
 	public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception{
 		String name = request.getParameter("name");
 
-		Map<String, String> map = new HashMap<String,String>();
+		Map<String, String> map = new HashMap<String,String>(); System.out.println("Hi");
+
 		map.put("name", name);
 
 		return new ModelAndView("welcome", map);
